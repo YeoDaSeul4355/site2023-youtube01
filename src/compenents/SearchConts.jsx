@@ -21,7 +21,7 @@ const SearchConts = () => {
   return (
     <main id="main">
       <section id="search">
-        <h2>검색 결과:</h2>
+        <h2>검색 결 과:</h2>
         {videos && <Videos videos={videos} />}
       </section>
     </main>
