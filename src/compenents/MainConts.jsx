@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Category, Loader, Videos } from './index';
+import { Category, Videos } from './index';
 import { BiSolidCategory } from 'react-icons/bi';
 
 const MainConts = () => {
