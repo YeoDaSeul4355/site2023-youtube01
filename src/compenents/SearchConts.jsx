@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Videos } from './';
-import { Loader } from './index';
 
 const SearchConts = () => {
   const [videos, setvideos] = useState(null);
