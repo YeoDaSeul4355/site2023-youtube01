@@ -1,16 +1,12 @@
 import React from 'react';
-
-const Videos = () => {
+import { VideoCard } from './index';
+const Videos = ({ videos }) => {
   return (
-    <div>
+    <div className="videos__inner">
       <ul>
-        <li>Video</li>
-        <li>Video</li>
-        <li>Video</li>
-        <li>Video</li>
-        <li>Video</li>
-        <li>Video</li>
-        <li>Video</li>
+        {videos.map((video, idx) => (
+          <VideoCard key={idx} video={video} />
+        ))}
       </ul>
     </div>
   );

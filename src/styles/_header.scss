@@ -25,12 +25,22 @@
     .search {
         width: calc(100% - 300px);
         display: flex;
+        position: relative;
+        label {
+            position: absolute;
+            right: 32%;
+            top: 20%;
+            font-size: 25px;
+            cursor: pointer;
+            color: #ff6779
+        }
         input {
             width: 70%;
             border: 0;
             padding: 10px 20px;
             border-radius: 50px;
             margin-right: 10px;
+            outline: none;
         }
         button {
             display: inline-block;
@@ -55,6 +65,7 @@
         .logo {
             width: 100%;
             font-size: 22px;
+            text-align: center;
 
             .icon {
                 font-size: 38px;
@@ -63,8 +74,16 @@
         .search {
             width: 100%;
             padding-bottom: 15px;
+            label {
+                position: absolute;
+                right: 5%;
+                top: 18%;
+                font-size: 25px;
+                cursor: pointer;
+                color: #ff6779
+            }
             input {
-                width: 90%;
+                width: 100%;
             }
             button {
                 padding: 10px 40px;
