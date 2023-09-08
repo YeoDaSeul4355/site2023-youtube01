@@ -1,5 +1,7 @@
 import React from 'react';
-import { VideoCard } from './index';
+
+import { VideoCard } from '../index';
+
 const Videos = ({ videos }) => {
   return (
     <div className="videos__inner">

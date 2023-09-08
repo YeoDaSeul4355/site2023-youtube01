@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
 import { Link, useParams } from 'react-router-dom';
-import { Loader } from './index';
+import { Loader } from '../index';
 import { GrFavorite } from 'react-icons/gr';
 import { GrFormView } from 'react-icons/gr';
 
@@ -42,7 +42,7 @@ const VideoConts = () => {
                 <div>
                   <span>
                     <GrFormView className="icon" />
-                    조회수 입니다 {viewCount} 회
+                    조회수 {viewCount} 회
                   </span>
                   <span>
                     <GrFavorite className="icon" />

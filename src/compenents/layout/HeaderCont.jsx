@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { AiFillYoutube } from 'react-icons/ai';
-import { SearchBar } from './';
+import { SearchBar } from '..';
 
 const HeaderCont = () => {
   return (

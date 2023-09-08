@@ -1,5 +1,5 @@
 import React from 'react';
-import { categories } from '../utils/content';
+import { categories } from '../../utils/content';
 
 const Category = ({ selectCategory, setSelectCategory }) => {
   return (
